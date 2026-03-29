@@ -1,0 +1,15 @@
+{
+  "name": "task-scheduling-delivery",
+  "version": "1.0.0",
+  "description": "Comparing brute force vs greedy algorithms for delivery task scheduling",
+  "main": "taskScheduling.js",
+  "scripts": {
+    "test": "node testBasic.js",
+    "performance": "node performanceTest.js",
+    "edge-cases": "node edgeCaseTest.js",
+    "all": "npm run test && echo '\\n' && npm run performance && echo '\\n' && npm run edge-cases"
+  },
+  "keywords": ["algorithms", "optimization", "scheduling"],
+  "author": "student",
+  "license": "MIT"
+}
